@@ -1,0 +1,1 @@
+# bower-simple-local-resolver
