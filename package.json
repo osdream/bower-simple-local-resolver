@@ -1,0 +1,24 @@
+{
+  "name": "bower-simple-local-resolver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osdream/bower-simple-local-resolver.git"
+  },
+  "keywords": [
+    "bower",
+    "local",
+    "resolver"
+  ],
+  "author": "osdream <osdream.song@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/osdream/bower-simple-local-resolver/issues"
+  },
+  "homepage": "https://github.com/osdream/bower-simple-local-resolver#readme"
+}
