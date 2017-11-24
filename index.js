@@ -66,7 +66,7 @@ module.exports = function resolver (bower) {
       var source = endpoint.source;
       var deferred = q.defer();
       var tempDir = tmp.dirSync();
-      copy(path.resolve(source, '**', '*'), tempDir.name, function (err, files) {
+      copy([path.resolve(source, '**', '*'), '!' + path.resolve(source, 'node_modules', '**', '*'), '!' + path.resolve(source, 'bower_components', '**', '*')], tempDir.name, function (err, files) {
         if (err) {
             deferred.reject(new Error(err));
         }
