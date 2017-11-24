@@ -1,6 +1,6 @@
 {
   "name": "bower-simple-local-resolver",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -20,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/osdream/bower-simple-local-resolver/issues"
   },
-  "homepage": "https://github.com/osdream/bower-simple-local-resolver#readme"
+  "homepage": "https://github.com/osdream/bower-simple-local-resolver#readme",
+  "dependencies": {
+    "copy": "^0.3.1",
+    "q": "^1.5.1",
+    "tmp": "^0.0.33"
+  }
 }
